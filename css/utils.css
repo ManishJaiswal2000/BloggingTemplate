@@ -1,0 +1,93 @@
+
+
+/* Importing the Google Font */
+
+    /* Roboto */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,500&display=swap');
+    /* Baloo Bhaina 2 */
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap');
+    
+
+/****************************************************** STYLE CSS *************************************/
+/*CSS variable */
+:root{
+    --main-bg-color:rgb(161, 26, 161);
+    --font1: 'Baloo Bhaina 2', cursive;
+    --font2: 'Roboto', sans-serif;
+    }
+
+.font1{
+    font-family: var(--font1);
+}
+
+.font2{
+    font-family: var(--font2);
+}
+
+/* Styling of the CSS Class*/
+.max-width-1{
+    max-width: 80vw;  /* 80% */
+}
+
+.max-width-2{
+    max-width: 60vw;   /* 60% */
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.my-2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btn{
+    font-family: var(--font1);
+    font-size: 16px;
+    padding: 0px 20px;
+    padding-top: 4px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.btn:hover{
+    color: white;
+    background-color: var(--main-bg-color);
+}
+
+.form-input{
+    font-family: var(--font1);
+    font-size: 16px;
+    padding-top: 4px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 0 12px;
+    text-align: center;
+}
+
+/****************************************************** UTILS CSS *************************************/
+.form-box input, textarea{
+    width : 44vw;
+    padding : 0px 30px;
+    margin : 7px 0;
+    font-size: 18px;
+    font-family: var(--font1);
+    border: 3px solid blue;
+    border-radius: 7px;
+}
+
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.text-center{
+    text-align: center;
+}
+.contact-heading{
+    text-decoration: underline;
+}

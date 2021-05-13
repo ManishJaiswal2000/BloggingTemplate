@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding : 0;
+}
+
+/* *********************************   Navigation Styling Start Here  ********************************** */
+.navigation{
+    margin-top: 25px;
+    /* height: 74px; */
+    /* background-color: red; */
+    font-family: var(--font1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.nav-left{
+    display: flex;
+}
+
+.nav-left span a{
+    text-decoration: none;
+}
+
+.nav-left span{
+    font-size: 35px;
+    padding-top: 10px;
+    /* background-color:#ff00ff;
+    border-radius: 49px;
+    padding: 5px;
+    */
+}
+
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+}
+
+.nav-left ul li{
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+    color : black;
+    /* transition: all 1s ease-in-out; */
+}
+
+.nav-left ul li a:hover{
+    color: var(--main-bg-color); 
+    font-weight: bolder;
+}
+
+
+/* *********************************   Articles Styling Start Here  ********************************** */
+.content{
+    height: 100%;
+    /* background-color: rgb(70, 70, 201); */
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+}
+
+.content::after{
+    content: "";
+    background-image: url('../img/home.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.2;
+    border-radius: 12px;
+}
+
+.content-left{
+    font-family : var(--font1);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    z-index: 1;
+}
+
+.content-right{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-right img{
+    height: 300px;
+    border: 2px solid red;
+    border-radius: 200px;
+}
+
+/* *********************************   Footer Styling Start Here  ********************************** */
+.home-articles{
+    background-color: rgb(176 111 111 / 50%);
+    padding: 18px;
+    margin-top: 23px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.year-box{
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    /* background-color: red; */
+    right: 100px;
+    top: 160px;
+    font-size: 21px;
+}
+
+
+
+.home-articles-featured{
+    font-size: 28px;
+    color: rgba(10, 121, 185, 0.767);
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+.home-article{
+    display: flex;
+    margin: 25px;
+}
+
+.home-article img{
+    width : 300px;
+}
+
+.home-article-content{
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* *********************************   Footer Styling Start Here  ********************************** */
+.footer{
+    height: 40px;
+    width: 100%;
+    /* background-color: var(--main-bg-color); */
+    background-color: rgb(161, 26, 161);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* flex-direction: column; */
+}
+
+.footer a{
+    color: white;
+}
